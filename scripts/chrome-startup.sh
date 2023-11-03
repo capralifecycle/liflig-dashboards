@@ -1,7 +1,8 @@
 #!/bin/bash
 
-CONFIG="$(curl https://raw.githubusercontent.com/capralifecycle/liflig-dashboards/master/configs/$(hostname).json)"
+set -eo pipefail
 
+CONFIG="$(curl https://raw.githubusercontent.com/capralifecycle/liflig-dashboards/master/configs/$(hostname).json)"
 
 URL=$(echo "$CONFIG" | sops --input-type json --output-type json -d /dev/stdin | jq -r '.website')
 
