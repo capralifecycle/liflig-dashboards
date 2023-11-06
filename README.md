@@ -1,6 +1,8 @@
 # Liflig dashboards
 
 Repository used to hold configs for RPi powered screens at 15th floor on HQ.
+The configs are read after boot, using their hostname.
+
 
 Config files are encrypted using [sops](https://github.com/getsops/sops)
 
