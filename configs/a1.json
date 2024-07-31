@@ -1,5 +1,5 @@
 {
-	"website": "ENC[AES256_GCM,data:KLolA2kIPtkGorl9PLGy6B7+J+IwHi/SRT42WxwCFZ96kt2s+GicuwJodew4uGYFNuR5HrPUieyw+JzWyCE8lGPLhC4c09UCgQ7T6fanh84hrItMtb2Uivg5MARTCFcTl8EhBqjxBtbBhjKi/b/z58cX32E3xCUVc3+fhBt9pYLzUyBjtUuvUbeo/HcCf4awgyai8KgwE+M1lx1qfiBkLM9JMyACh19akYjblnr7EOfc7O85UeF/VfYRmQ==,iv:PXv5O1TqYg/cEX/ia0zO2HLF09igl+uCZ7aqJbgt8TQ=,tag:CETJ9rxxZJdiP6zKKRIz0g==,type:str]",
+	"website": "ENC[AES256_GCM,data:IeSG0LjeOORsZd2hjWIgyKzOj7LDO11E7qCFFKgRPZR6R8yU/5F63bSocZA1Y+g4Qtyv6bn+RNqFgo6mJQemaQ/9+oN3dOr20Np3tGZYpD7G1tTO5uUkFEHbEXA+01jx0wrXtzg2cIyElBo3zSWJMLV3LCUtSUgpGMMFM2KRKA0XPYwVyyxHJr5wrcnjxmxT/w==,iv:b3Fph+hh+tsP2BFzIv9y0bbmMh9Vam2I4sPFUYhXoxk=,tag:ryhHhgJBDIk9DX1DO/OWCw==,type:str]",
 	"autoRefresh": "ENC[AES256_GCM,data:6D5btA==,iv:Z+d3ez+OztGbjTSKdRKkTl5PeNCQ8gzDWMhvvQtZhN4=,tag:sr8P7TLgw47AzSE9mAkPyQ==,type:float]",
 	"sops": {
 		"kms": null,
@@ -12,8 +12,8 @@
 				"enc": "-----BEGIN AGE ENCRYPTED FILE-----\nYWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAvU0pnZGw5NWt4REdaVkdt\nT1RuQUkvSDNSQ29VMWJEbUZXSHQwbHI1aERjCkR4VU1VWW5ramQ1QWlZRVhMRlRp\nbGtxVjZKN1dIRVdXMEVSMlkxUFNzZFUKLS0tIG5qNHordUpEYW44M000WTRwcFd0\nZHp6RE9sU2ZJMzlTOW9ldGw0M3NIdUkKFhv/umLs5sJ4wfA8tZNlVEtAkr/9p9pD\nS/4UgUXDlADan6BSg/t5hT2LRU+T8jK+jL2oOxiXoAjkYuv13SdDow==\n-----END AGE ENCRYPTED FILE-----\n"
 			}
 		],
-		"lastmodified": "2024-07-30T08:05:58Z",
-		"mac": "ENC[AES256_GCM,data:i5LyaDPd3qlJofZEwc5IYEQKkV9KKbUp++/NAtEfp45s+gx3Pz4bw6IlfC0pmCDIS3I7aNSaMWJ8pSMlsOUlBvtcLyj2RhD2ccQ6STGNTpr+mdaEAzuqkk6PcWgoAkfd2WrDjboCiAd/T89DAKi6Rgcmh+6xxsIBJEDdgseLjHE=,iv:Hffm/2tr8yWsl75flqPXz1P6FSHBCCoLPD9vgqbY8Bg=,tag:8UfY4oeAzpbXlXPuVEkOtw==,type:str]",
+		"lastmodified": "2024-07-31T12:27:45Z",
+		"mac": "ENC[AES256_GCM,data:AJlDYm6nYlAS0UvvNgZgVSj/b5m3bFaTHdsMcsCib2OxjCI2ALKWEQfbbg37SKW2TWPPG9PGxToHNDtmthVqx3Twki1w0p9T4lrQmpx21biAC/I8P9rmKXh+ISdNIUOUMvkI/Y8DDMc97RYM9nz/dj8qXY4ktyzulRhSdf68Lq8=,iv:FnSajQiLQG0X1qZsrU+iMa9pbpgIR2lja2vX37v73XM=,tag:/3CUpHAnRXJVgVi5cW5qGw==,type:str]",
 		"pgp": null,
 		"unencrypted_suffix": "_unencrypted",
 		"version": "3.8.1"
