@@ -18,3 +18,13 @@ PRIVATE_KEY
 ```
 
 Keys can be found at 1pw: Raspberry Pi Dashboards
+
+## Making a new raspi
+
+1. Flash the SD card. (Kristian has a premade img). This has sops key set up, wifi credentials, xfce auto start of chrome script.
+2. Change the hostname in `sudo raspi-config` and reboot. Fix chromuium after hostname change: `rm ~/.config/chromium/Singleton*` .
+3. `sudo apt update && sudo apt upgrade`
+4. `cd ~/Desktop && ./get-sops.sh`
+6. Update scripts: `cd ~/Desktop && rm chrome-startup.sh && wget https://raw.githubusercontent.com/capralifecycle/liflig-dashboards/master/scripts/chrome-startup.shi && chmod +x chrome-startup.sh`
+7.  `sudo apt install unclutter`
+
